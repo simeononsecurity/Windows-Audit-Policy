@@ -4,6 +4,9 @@ $ErrorActionPreference= 'silentlycontinue'
 #Require elivation for script run
 #Requires -RunAsAdministrator
 
+#Set Directory to PSScriptRoot
+if ((Get-Location).Path -NE $PSScriptRoot) { Set-Location $PSScriptRoot }
+
 #Unblock all files required for script
 Get-ChildItem *.ps*1 -recurse | Unblock-File
 

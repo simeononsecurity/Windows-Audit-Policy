@@ -1,5 +1,8 @@
 # Windows-Audit-Policy
- Max out Windows Auditing
+
+[![VirusTotal Scan](https://github.com/simeononsecurity/Windows-Audit-Policy/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/Windows-Audit-Policy/actions/workflows/virustotal.yml)
+
+Max out Windows Auditing
 
 ## Recommended reading material:
   - [auditpol](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol)
